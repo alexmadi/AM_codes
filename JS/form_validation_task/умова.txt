@@ -1,0 +1,7 @@
+  1. Add javascript logic, which will collect all information, entered by user and add it to the "Product List"
+  2. Add simple validation, which prevent adding wrong(empty) information about product:
+    - title can't be empty field, min length 1 symbols
+    - SKU can't be empty, min length 1 symbols
+    - Price should be numeric value, available format: 100, 100.22
+    - Product Description is optional field.
+    - Is available (if checked), then to the product list should be added text (in stock), if unchecked, "out of stock".

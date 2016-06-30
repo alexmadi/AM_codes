@@ -1,0 +1,17 @@
+body{
+  margin      : 0;
+  padding     : 1.5em;
+  font-family : Georgia,Utopia,Charter,serif;
+}
+input[type=checkbox]:not(old){
+	width: 28px;
+}
+input[type=checkbox]:not(old) + label{
+  display: inline-block;
+  margin-left: -28px;
+  padding-left: 28px;
+  background: url('checkbox_bg.png') no-repeat 0 -24px;;
+}
+input[type=checkbox]:not(old):checked + label{
+  background-position : 0 0;
+}
