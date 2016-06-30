@@ -1,0 +1,95 @@
+src="${URLUtils.staticURL('/images/logo_footer.png')}">
+
+
+----------------------------------------------------------------------------------------------------------------------------
+
+<isif condition="${(loopstate.index== 0)}">
+ 	<div>Insert block after first element</div>
+ </isif>
+
+adding class
+
+<li class="grid-tile ${(loopstate.index % 3 == 0) ? 'new-row' : ''}"  data-colors-to-show="${ProductGridUtils.getRepresentedVariationValueIDs(LoopProductHit,'color').join(',')}">
+</li>
+
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+
+
+How to add class to each row in forms
+
+<isscript>
+var inputField = require('~/cartridge/scripts/common/inputField')(pdict);
+
+inputField.rowClass = field.formfield.formId + inputField.rowClass;
+</isscript>
+
+<div class="form-row ${inputField.rowClass}">
+<isif condition="${inputField}">
+<isif condition="${inputField.labelAfter}">
+	<isif condition="${!pdict.value || pdict.value === 'true'}">
+		<div class="field-wrapper">
+			<isprint value="${inputField.input}" encoding="off"/>
+		</div>
+	</isif>
+
+DEMANDWARE
+add class
+<isloop items="${lineItem.bundledProductLineItems}" var="bli" status="loopstate">		
+<tr class="rowbundle  ${(loopstate.last) ? 'lastrowbundle' : ''}">
+</isloop>
+		for each 4
+<li class="grid-tile ${(loopstate.index % 4 == 0) ? 'new-row' : ''}" 
+
+
+-----------------------------
+
+<div class="registry-tab-wrapper ${pdict.currentpage == "registry" ? "selected" : ""}">
+
+Adds class to active tab(gift reg)
+
+
+
+
+Pipelines
+
+Core -catr-temp-defolt-content-home-homepg
+<Iscomment>
+
+Ctrl-shift-r - search
+
+Isdecorate 
+ isreplase vstavlee homepage
+
+Components-header-xml
+
+Simple
+Include template
+
+Include cherez pipelines
+
+Variable
+
+Resourses
+'' globalstorename name of var
+Locale-name of file
+Resourse msg
+
+0 i 1 -vars
+Null - misto dlya zminnoi
+
+0 i 1 index yacheyki masyva
+
+Page info in corner
+
+Ctrl-H search class in eclipse
+
+*
+*.isml
+
+Temp-def-rend-cat
+Task for Demandware exchange
+astound02.alliance-prtnr-eu01.dw.demandware.net

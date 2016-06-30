@@ -1,0 +1,348 @@
+body, ul, li, h1, h2, h3, h4, h5, h6, p, textarea {
+  margin: 0;
+  padding: 0; }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+input, textarea {
+  border: 0;
+  outline: none; }
+
+textarea {
+  resize: none;
+  overflow: hidden; }
+
+/* for IE */
+a img {
+  border: none; }
+
+.header_wrapper .header {
+  *zoom: 1; }
+  .header_wrapper .header:before, .header_wrapper .header:after {
+    content: " ";
+    display: table; }
+  .header_wrapper .header:after {
+    clear: both; }
+
+/*
+SCSS variables are information about icon's compiled state, stored under its original file name
+
+.icon-home {
+  width: $icon-home-width;
+}
+
+The large array-like variables contain all information about a single icon
+$icon-home: x y offset_x offset_y width height total_width total_height image_path;
+
+At the bottom of this section, we provide information about the spritesheet itself
+$spritesheet: width height image $spritesheet-sprites;
+*/
+/*
+The provided mixins are intended to be used with the array-like variables
+
+.icon-home {
+  @include sprite-width($icon-home);
+}
+
+.icon-email {
+  @include sprite($icon-email);
+}
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+/*
+The `sprites` mixin generates identical output to the CSS template
+  but can be overridden inside of SCSS
+
+@include sprites($spritesheet-sprites);
+*/
+/* usage
+	.item {
+		@include fa_absolute ($fa-var-bars);
+	}
+*/
+/* usage
+  .item {
+    @include sprite_absolute ($arrow, before, 0,auto,auto,0);
+  }
+*/
+.site-width {
+  max-width: 1120px;
+  margin: 0 auto; }
+  @media only screen and (max-width: 767px) {
+    .site-width {
+      width: 87.5%; } }
+  @media only screen and (min-width: 768px) and (max-width: 1199px) {
+    .site-width {
+      width: 95%; } }
+  @media screen and (max-width: 320px) {
+    .site-width {
+      width: 100%; } }
+
+.header_wrapper .header:after, .clearfix:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+* {
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Lato'; }
+
+.slider_wrapper .slider img {
+  width: 100%;
+  display: block; }
+
+.slider_wrapper .slider .slide_item {
+  position: relative; }
+  .slider_wrapper .slider .slide_item:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    background: rgba(0, 0, 0, 0.5); }
+
+.slider_wrapper .slider .slide_item_content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 530px;
+  z-index: 3;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+  font-size: 0; }
+  .slider_wrapper .slider .slide_item_content h2 {
+    text-transform: uppercase;
+    font-size: 60px;
+    margin-bottom: 30px; }
+  .slider_wrapper .slider .slide_item_content p {
+    font-size: 24px;
+    line-height: 30px; }
+  .slider_wrapper .slider .slide_item_content a {
+    display: inline-block;
+    position: relative;
+    margin-top: 20px;
+    background: #cb0a27;
+    width: 270px;
+    height: 60px;
+    line-height: 60px;
+    color: #fff;
+    font-size: 16px; }
+    .slider_wrapper .slider .slide_item_content a:hover {
+      background: #b30922; }
+      .slider_wrapper .slider .slide_item_content a:hover:before {
+        animation: bounce 1.5s infinite; }
+    .slider_wrapper .slider .slide_item_content a:before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      bottom: auto;
+      right: 22%;
+      left: auto;
+      margin: -7px 0 0 0;
+      background-image: url(../img/sprite.png);
+      background-position: 0px -28px;
+      width: 7px;
+      height: 14px; }
+
+.slider_wrapper .owl-nav div {
+  width: 67px;
+  height: 67px;
+  position: absolute;
+  top: 50%;
+  margin-top: -33px;
+  background: #fff;
+  font-size: 0; }
+
+.slider_wrapper .owl-prev {
+  left: 0; }
+  .slider_wrapper .owl-prev:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    bottom: auto;
+    right: auto;
+    left: 50%;
+    margin: auto;
+    transform: translate(-50%, -50%);
+    background-image: url(../img/sprite.png);
+    background-position: -17px 0px;
+    width: 15px;
+    height: 26px; }
+
+.slider_wrapper .owl-next {
+  right: 0; }
+  .slider_wrapper .owl-next:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    bottom: auto;
+    right: auto;
+    left: 50%;
+    margin: auto;
+    transform: translate(-50%, -50%);
+    background-image: url(../img/sprite.png);
+    background-position: 0px 0px;
+    width: 15px;
+    height: 26px; }
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0); }
+  40% {
+    transform: translateY(-20px); }
+  60% {
+    transform: translateY(-10px); } }
+
+.header_wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 3; }
+  .header_wrapper .header {
+    max-width: 1120px;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 40px; }
+    @media only screen and (max-width: 767px) {
+      .header_wrapper .header {
+        width: 87.5%; } }
+    @media only screen and (min-width: 768px) and (max-width: 1199px) {
+      .header_wrapper .header {
+        width: 95%; } }
+    @media screen and (max-width: 320px) {
+      .header_wrapper .header {
+        width: 100%; } }
+
+.logo {
+  float: left;
+  width: 170px; }
+  .logo img {
+    width: 100%; }
+
+.menu_icon_wrapper {
+  float: right; }
+
+.nav_wrapper {
+  position: absolute;
+  top: 130%;
+  width: 100%;
+  transition: 1s;
+  -webkit-transform: perspective(800) rotateX(90deg);
+  -webkit-transform-origin: 100% 100%; }
+  .nav_wrapper.active {
+    -webkit-transform: perspective(600) rotateX(0deg);
+    -webkit-transform-origin: 0% 0%; }
+  .nav_wrapper .nav {
+    display: table;
+    width: 100%; }
+  .nav_wrapper .nav_item {
+    background: #fff;
+    border: 1px solid #000;
+    border-left-width: 0;
+    display: table-cell; }
+    .nav_wrapper .nav_item:first-child {
+      border-left-width: 1px; }
+    .nav_wrapper .nav_item .nav_item_inner {
+      position: relative;
+      height: 50px;
+      background: #fff;
+      line-height: 50px;
+      text-align: center;
+      overflow: hidden; }
+      .nav_wrapper .nav_item .nav_item_inner:hover .nav_item_decor_1 {
+        width: 50%; }
+      .nav_wrapper .nav_item .nav_item_inner:hover .nav_item_decor_2 {
+        width: 50%; }
+      .nav_wrapper .nav_item .nav_item_inner:hover .nav_item_link {
+        color: #fff; }
+      .nav_wrapper .nav_item .nav_item_inner .nav_item_link {
+        position: relative;
+        z-index: 2;
+        display: block;
+        color: #000;
+        text-align: center;
+        transition: .7s;
+        font-size: 16px; }
+      .nav_wrapper .nav_item .nav_item_inner .nav_item_decor_1 {
+        position: absolute;
+        background: #000;
+        height: 100%;
+        width: 0;
+        top: 0px;
+        left: 0px;
+        transition: all .5s ease; }
+      .nav_wrapper .nav_item .nav_item_inner .nav_item_decor_2 {
+        position: absolute;
+        background: #000;
+        height: 100%;
+        width: 0;
+        top: 0px;
+        right: 0px;
+        transition: all .5s ease; }
+
+/* Menu icon styles */
+.menu_icon_wrapper {
+  position: relative;
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  pointer-events: none;
+  transition: 0.1s; }
+
+.menu_icon_wrapper.scaled {
+  transform: scale(0.5); }
+
+.menu_icon_wrapper svg {
+  position: absolute;
+  top: -33px;
+  left: -33px;
+  transform: scale(0.1);
+  transform-origin: 0 0; }
+
+.menu_icon_wrapper svg path {
+  stroke: #fff;
+  stroke-width: 40px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: transparent; }
+
+.menu_icon_wrapper .menu_icon_trigger {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  pointer-events: auto;
+  background: none;
+  border: none;
+  margin: 0;
+  padding: 0; }
+
+.menu_icon_wrapper .menu_icon_trigger:hover,
+.menu_icon_wrapper .menu_icon_trigger:focus {
+  outline: none; }
+
+/*# sourceMappingURL=style.css.map */
