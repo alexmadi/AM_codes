@@ -1,0 +1,11 @@
+http://confluence.ontrq.com/display/BHO/BHO+-+Functional+Specification+Documents  - docs to read
+
+https://www.engageux.com/wa?p=284
+o.madi@ast
+Hl93
+
+http://dev09-web-boohoo.demandware.net/on/demandware.store/Sites-boohoo-NA-Site   - my sandbox
+https://dev09-web-boohoo.demandware.net/on/demandware.store/Sites-Site/default/ViewApplication-SelectSite?MenuGroupID=ChannelMenu&ChannelID=
+
+
+http://confluence.ontrq.com/display/BHO/Frontend+environment+configuration+manual  - frontend env installation
