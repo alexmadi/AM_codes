@@ -41,6 +41,7 @@ Creating site
 Administration
 Sites
 Manage sites
+New(in the bottom)
 Name o.madi
 Id omadi
 Only id and name

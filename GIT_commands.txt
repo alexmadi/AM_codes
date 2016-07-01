@@ -1,0 +1,80 @@
+$ git config --global user.name "Oleksandr Madi"
+$ git config --global user.email "oleksandrmad@gmail.com"
+
+git config
+git config --list
+git help commit / git commit --help
+
+! creating repository
+
+$ cd d:/....project_1
+
+git init
+$ touch .gitignore  - створити gitignore файл
+git status - current status of project
+git add .    -  to watch files(stage)        git add У*.htmlФ
+after modifying...
+git add index.html    /   git add У*.scssФ
+git rm --cached index.html   - remove files from cache
+git commit -m "first commit"
+git commit -am "first commit"     + -a    - + git add .
+git checkout -b Madi_branch - creating and changing branch
+git log  - history of commits
+    Wokring with remote branch
+git fetch
+git checkout origin/some_branch
+git branch
+git branch --remote
+git branch -a - shows all branches
+git branch -r - only remote branches
+
+git push origin HEAD:chornak-branch      !!! PUSH у чужу бран
+
+git remote add origin https://github.com/alexmadi/project_1.git    - adding project to repo
+git push origin master
+git push -u origin master push after commit to  repo
+git clone https://github.com/jquery/jquery.git   - download project from repo
+
+
+other commands
+git remote add origin https://github.com/alexmadi/project_patterns.git
+
+git remote set-url origin git://omadi@bitbucket.org/omadi/shopia_repo.git
+
+git remote remove origin
+
+git merge --abort
+git branch --set-upstream-to=origin/dev
+
+git push -u origin master - -u tells to remembre repository
+git pull origin master   - check changes
+git diff HEAD - look last change
+gt diff -staged  - option to see the changes you just staged
+git reset octodog.txt - unstage file
+git checkout  octodog.txt
+git branch clean_up - creating branch
+git checkout clean_up - switching branches
+git rm У*.txtФ -  You can finally remove all those pesky octocats by using the git rm command which will not only remove the actual files from disk, but will also stage the removal of the files for us.
+
+git commit -m УRemove all the catsФ
+
+git chekout master
+git merge clean_up
+git branch -d clean_up -delete branch
+git push
+
+git help log - справка
+git log --pretty=format:"%cn committed %h on %cd"
+git log --since=2.weeks
+git log -p -2  -  подивитис€ детально 2 ком≥та
+git diff filename  - see difference 
+q - quit
+git show HEAD
+git checkout HEAD filename
+git reset HEAD filename   - unstage file
+git log --graph --all --decorate --oneline
+ 
+
+git rm -r --cached FolderName
+git commit -m "Removed folder from repository"
+git push origin master
