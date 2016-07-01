@@ -10,7 +10,7 @@ git help commit / git commit --help
 $ cd d:/....project_1
 
 git init
-$ touch .gitignore  - створити gitignore файл
+$ touch .gitignore  - creating gitignore file
 git status - current status of project
 git add .    -  to watch files(stage)        git add У*.htmlФ
 after modifying...
@@ -28,7 +28,7 @@ git branch --remote
 git branch -a - shows all branches
 git branch -r - only remote branches
 
-git push origin HEAD:chornak-branch      !!! PUSH у чужу бран
+git push origin HEAD:chornak-branch      !!! PUSH in someones branch
 
 git remote add origin https://github.com/alexmadi/project_1.git    - adding project to repo
 git push origin master
