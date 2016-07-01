@@ -1,0 +1,9 @@
+-          Check empty tags
+-          Check where you need link
+-          Font-size 0 for display:inline-block
+-          Delete display:block if positiion absolute/float
+-          Check needless clearfix
+-          Set for img width:100%; display:block or line-height:0;  for img container – overflow:hidden
+-          Connect fonts
+-          Optimize files
+-          crossbrowse

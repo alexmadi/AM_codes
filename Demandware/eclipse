@@ -1,0 +1,25 @@
+HIGHTLIGHT SCSS IN ECLIPSE
+
+
+
+
+I just figured out how to do this in Eclipse. I admit that this solution does not have 100% SASS support, the colors get a little funky when using nested css, but it's waaaaay better than looking at plain text and you don't need to install a separate editor.
+You need to associate the .scss file type with the native Eclipse CSS Editor in Eclipse[Part 1]. After you do that, you need to add the .scss file type to the native CSS Editor as well so the CSS Editor will be able to open it [Part 2]. Here are the steps for eclipse (I'm running Eclipse Java EE IDE for Web Developers, Indigo):
+Part 1 - Associate the .scss file type with the native Eclipse CSS Editor
+	- Go to Window > Preferences
+	- Drill down to General > Editors > File Associations
+	- In File Associations pane, click the 'Add..." button on the top right.
+	- For File Type:, enter *.scss and then click OK.
+	- Find the *.scss entry in the File Associations list and select it.
+	- After selecting *.scss, on the bottom pane Associated editors:, click the Add... button.
+	- Make sure Internal editors is selected on the top, then find and select CSS Editor and then click OK.
+This associated the file type .scss with eclipses native CSS Editor. Now we have to configure the native CSS Editor to support .scss files. To do this, follow this steps:
+Part 2 - Add the .scss file type to the native CSS Editor
+	- Go to Window > Preferences
+	- Drill down to General > Content Types
+	- In the Content Types pane, expand Text, then select CSS
+	- After CSS is selected, on the bottom File associations: pane, click the Add... button.
+	- For Content type:, enter *.scss and then click OK.
+	- Click OK to close out the Preferences window.
+All done. All you need to do now is close any .scss files that you have open then re-open them and wha-la, css colors in Eclipse for .scss files!
+Note: If the css colours do not appear you may have to do the following: Right click the .scss file > Open With > CSS Editor.

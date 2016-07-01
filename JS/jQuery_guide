@@ -1,84 +1,84 @@
 http://jsfiddle.net/vishwa26/VCUvF/
 
-СЕЛЕКТОРИ
+РЎР•Р›Р•РљРўРћР Р
 http://jquery.page2page.ru/index.php5/%D0%A1%D0%B5%D0%BB%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D1%8B
 
-$(‘div’).filter(“.blue”)
-$(‘div’).not(“.blue”)
-$(“p”).eq(2).css(...) - стилі 3-му елементу
-$(“p”).slyce(0,4).css(...) - стилі надаються 1-4 елементу
-var rt = $(‘button’).is(“.blue”)  - істина
+$(вЂdivвЂ™).filter(вЂњ.blueвЂќ)
+$(вЂdivвЂ™).not(вЂњ.blueвЂќ)
+$(вЂњpвЂќ).eq(2).css(...) - СЃС‚РёР»С– 3-РјСѓ РµР»РµРјРµРЅС‚Сѓ
+$(вЂњpвЂќ).slyce(0,4).css(...) - СЃС‚РёР»С– РЅР°РґР°СЋС‚СЊСЃСЏ 1-4 РµР»РµРјРµРЅС‚Сѓ
+var rt = $(вЂbuttonвЂ™).is(вЂњ.blueвЂќ)  - С–СЃС‚РёРЅР°
 
 jQuery(document).ready(function() {
-    var a = jQuery(‘p’);
+    var a = jQuery(вЂpвЂ™);
     console.log(a);
 }
 or
 $(document).ready(function() {
-    var a = $(‘p’);
+    var a = $(вЂpвЂ™);
     console.log(a);
 }
 or
 $(function() {
-    var a = $(‘p’);
+    var a = $(вЂpвЂ™);
     console.log(a);
 }
 
 var a = $('.block');
-a.hide().addClass('novisible');         - скриває елемент
+a.hide().addClass('novisible');         - СЃРєСЂРёРІР°С” РµР»РµРјРµРЅС‚
 
-добавити стилі
+РґРѕР±Р°РІРёС‚Рё СЃС‚РёР»С–
  $('.block').css({color: "red"});
 
-Видалити клас
+Р’РёРґР°Р»РёС‚Рё РєР»Р°СЃ
  $('.block').removeClass('active');    
 
-Додає активний клас і видаляє його у активного елемента
+Р”РѕРґР°С” Р°РєС‚РёРІРЅРёР№ РєР»Р°СЃ С– РІРёРґР°Р»СЏС” Р№РѕРіРѕ Сѓ Р°РєС‚РёРІРЅРѕРіРѕ РµР»РµРјРµРЅС‚Р°
 $('.button').toggleClass("active");    
 
 $('.block').height(200);
 
-Однакова висота 2-х блоків
+РћРґРЅР°РєРѕРІР° РІРёСЃРѕС‚Р° 2-С… Р±Р»РѕРєС–РІ
  var height_button =  $('.block').height();
  $('.block2').height(height_button);
 
-Добавити текст у html
+Р”РѕР±Р°РІРёС‚Рё С‚РµРєСЃС‚ Сѓ html
 function Addtext() {
      $('.block2').html('<h1>ADDED</h1>')
  };
 <a onclick="Addtext()" class="button active" href="#">BUTTON ac</a>
-Заміняє текст
+Р—Р°РјС–РЅСЏС” С‚РµРєСЃС‚
 function Addtext() {
      $('.block2').text('ADDED')
  };
 
- $('.block2').append('ADDED') або .prepend - добавляє текст перед чи після содержимого
+ $('.block2').append('ADDED') Р°Р±Рѕ .prepend - РґРѕР±Р°РІР»СЏС” С‚РµРєСЃС‚ РїРµСЂРµРґ С‡Рё РїС–СЃР»СЏ СЃРѕРґРµСЂР¶РёРјРѕРіРѕ
 
-.before, .after - доб. текст перед чи  після елемента
+.before, .after - РґРѕР±. С‚РµРєСЃС‚ РїРµСЂРµРґ С‡Рё  РїС–СЃР»СЏ РµР»РµРјРµРЅС‚Р°
 
-Обертає елемент у обгортку
+РћР±РµСЂС‚Р°С” РµР»РµРјРµРЅС‚ Сѓ РѕР±РіРѕСЂС‚РєСѓ
 function Addtext() {
       $('.block2').wrap('<div class="wrapper"></div>')
     };
 wrapAll
 wrapInner
 replaceWith
-Дублює текст
+Р”СѓР±Р»СЋС” С‚РµРєСЃС‚
 function Addtext() {
       $('.block').clone().appendTo('.block2')
     };
 
-Записати значення з інпута
-var inputTxt = (‘.txt’).val();
-$(‘ul’).append(“<li>” + inputTxt+ ”</li>”)
+Р—Р°РїРёСЃР°С‚Рё Р·РЅР°С‡РµРЅРЅСЏ Р· С–РЅРїСѓС‚Р°
+var inputTxt = (вЂ.txtвЂ™).val();
+$(вЂulвЂ™).append(вЂњ<li>вЂќ + inputTxt+ вЂќ</li>вЂќ)
 
-Добавити атрибут
+Р”РѕР±Р°РІРёС‚Рё Р°С‚СЂРёР±СѓС‚
 $( elem ).attr( "checked" )
 
 
 
 =======
-Ф-ї із завдання PLP
+Р¤-С— С–Р· Р·Р°РІРґР°РЅРЅСЏ PLP
 
 $('.open_popup').click(function() {
                 var popup_id = $('.popup');
@@ -171,3 +171,42 @@ function tabs_function() {
 } 
 
 
+
+
+
+
+
+$('.button').click(function(){
+    $(this).addClass("active");
+});
+
+
+<script>
+
+jQuery( document ).ready(function() {
+   
+        jQuery(".rowbundle").last().addClass("lastrowbundle");
+   
+     
+});
+
+</script>
+<script>
+    jQuery( document ).ready(function() {
+        if (jQuery(".category-level-1 li").not('.category-level-item')){
+            jQuery(".category-level-1 li").addClass("category-level-item ");
+        }
+         
+    });
+</script>
+
+
+
+<script>
+ if (window.jQuery) { 
+     $(function() {
+       $(".sort-by select").selectBoxIt({ autoWidth: false });
+       $(".items-per-page select").selectBoxIt({ autoWidth: false });
+     });
+ }
+</script>
