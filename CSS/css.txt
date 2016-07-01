@@ -1,0 +1,51 @@
+/*-------------------------------------
+RESET
+-------------------------------------*/
+body,ul,li,h1,h2,h3,h4,h5,h6,p,textarea{
+                margin:0;
+                padding:0;          
+}
+li{
+                list-style:none;
+}
+a{            
+                text-decoration:none;
+}
+input, textarea{
+                border:0;
+                outline:none;
+}
+textarea{
+                resize:none;
+                overflow:hidden;
+}
+/* for IE */
+a img {
+    border:none;
+}
+/*-------------------------------------
+General
+-------------------------------------*/
+body{
+                font-family:'Lato';
+}
+.site_width{
+                width:940px;
+                margin:0 auto;
+}
+.clearfix:after {
+                content:'';
+                width: 100%;
+                clear: both;
+                display: block;
+}
+*, *:before, *:after {
+                -moz-box-sizing: border-box;
+                -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1250px)
+
+@media screen and (max-width: 700px)

@@ -1,0 +1,3 @@
+java -version
+node -v
+npm -v

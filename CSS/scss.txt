@@ -1,0 +1,29 @@
+// work width data attr
+
+$hp-grid: 25, 33, 50, 75, 66, 100;
+
+ $type-list: 'desktop', 'tablet', 'mobile';
+
+ @each $type in $type-list {
+  @each $width in $hp-grid {
+   @if $type == 'desktop' {
+    div[data-#{$type}="#{$width}"] {
+     width: $width * 1%;
+    }
+
+   } @elseif $type == 'tablet' {
+    @include respond-to(tablets) {
+     div[data-#{$type}="#{$width}"] {
+      width: $width * 1%;
+     }
+    }
+
+   } @elseif ($type == 'mobile' and $width == 100) {
+    @include respond-to(mobiles){
+     div[data-desktop]{
+      width: 100%;
+     }
+    }
+   }
+  }
+ }
