@@ -1,0 +1,43 @@
+To setup GruntJS build here is the steps:
+
+Make sure you have setup your package.json or setup new one:
+npm init
+Install Grunt CLI as global:
+npm install -g grunt-cli
+Install Grunt in your local project:
+npm install grunt --save-dev
+Install any Grunt Module you may need in your build process. Just for sake of this sample I will add Concat module for combining files together:
+npm install grunt-contrib-concat --save-dev
+Now you need to setup your Gruntfile.js which will describe your build process. For this sample I just combine two JS files file1.js and file2.js in the js folder and generate app.js:
+module.exports = function(grunt) {
+
+    // Project configuration.
+    grunt.initConfig({
+        concat: {
+            "options": { "separator": ";" },
+            "build": {
+                "src": ["js/file1.js", "js/file2.js"],
+                "dest": "js/app.js"
+            }
+        }
+    });
+
+    // Load required modules
+    grunt.loadNpmTasks('grunt-contrib-concat');
+
+    // Task definitions
+    grunt.registerTask('default', ['concat']);
+};
+Now you'll be ready to run your build process by following command:
+grunt
+I hope this give you an idea how to work with GruntJS build.
+
+NOTE:
+
+You can use grunt-init for creating Gruntfile.js if you want wizard-based creation instead of raw coding for step 5.
+
+To do so, please follow these steps:
+
+npm install -g grunt-init
+git clone https://github.com/gruntjs/grunt-init-gruntfile.git ~/.grunt-init/gruntfile
+grunt-init gruntfile

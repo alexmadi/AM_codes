@@ -1,0 +1,40 @@
+sunfitness.cz 
+Пошта - Seznam.cz
+sunfitness@email.cz
+Пароль - novaves
+
+База даних
+
+sfs_db
+sfs_user
+
+novaves2016
+
+Adminka
+sfs_user
+novaves2016/
+
+REPO
+sunfitness
+
+
+
+This theme recommends the following plugin: Llorix One Companion.
+Begin installing plugin | Dismiss this notice
+
+Тема - interface
+
+
+
+echo "# sunfitness_repo" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/alexmadi/sunfitness_repo.git
+git push -u origin master
+
+git remote add origin https://github.com/alexmadi/sunfitness_repo.git
+git push -u origin master
+
+
+
