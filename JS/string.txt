@@ -1,0 +1,17 @@
+var s = '/Controller/Action?id=11112&value=4444';
+s = s.substring(0, s.indexOf('?'));
+console.log(s); 
+
+var string = "/public_html/wp-content/themes/llorix-one-lite";
+var result = string.substring(string.lastIndexOf("/wp-content") + 1);
+
+console.log(result)
+
+
+var str = "Abc: Lorem ipsum sit amet";
+str = str.substring(str.indexOf(":") + 1);
+console.log(str);
+
+deleteFile = localFolder.substr(0, localFolder.lastIndexOf("/"));
+
+console.log(deleteFile);

@@ -1,0 +1,77 @@
+https://uk.wordpress.org/ - download latest version
+
+
+delete readme after installation
+
+protextion:
+- unicue pass
+- change prefix DB wp_
+- hide meta name="generator"
+- disable remote filling site
+- hide amdin panel
+- disable redirect to img pages
+- 
+
+PLUGINS:
+
+visualcomposer	
+Page Builder by SiteOrigin
+FooGallery + FooBox
+Contact form 7
+BLOCKS
+
+
+HOSTINGER
+minimalist@bk.ru
+Hlyfcrtkjslfv93
+http://amwp.pe.hu/
+
+WP BM - Налаштування - Загальні
+1. Адреса WordPress (URL)	- http://wptest.com - change to host address - http://amwp.pe.hu/
+
+new DB - Name - u377729462_bd
+Admin name - u377729462_admin
+
+// turn off all plugins
+
+2. Export local DB
+3. Import local DB
+4. Set new DB/Admin name and Server in wp-config.php
+
+Filezilla connection
+Host - 31.220.16.225
+
+User- u916719438
+
+u377729462
+
+D:\WebServer\OpenServer\domains\wptest.com
+
+FTP_USER=u916719438 FTP_PWD=Hlyfcrtkjslfv93 gulp ftp-deploy  
+
+gulp ftp-deploy-watch 
+
+
+
+
+
+// temp host
+1
+http://sunfitness.cz
+http://amwp.pe.hu/
+
+u377729462_dbs
+u377729462_usf
+mysql.hostinger.com.ua
+
+3.
+define('DB_NAME', 'sfs_db');
+
+/** Имя пользователя MySQL */
+define('DB_USER', 'sfs_user');
+
+/** Имя сервера MySQL */
+define('DB_HOST', 'localhost');
+
+update_option('siteurl','http://sunfitness.cz');
+update_option('home','http://sunfitness.cz');

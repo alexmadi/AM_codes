@@ -1,0 +1,29 @@
+st-anna-church.com.ua
+назва сайту St. Anna Church
+
+Пошта -  
+Пароль - Site_pass2016
+
+База даних
+
+church_site_db
+site_admin
+
+Church_site2016
+
+REPO
+st-anna-church
+
+StAnnaChurch@email.ua
+
+
+st-anna-church@ukr.net
+Email_pass2016
+
+Contact Form 7
+Polylang
+
+http://pro-wordpress.ru/nastrojka-wordpress/kak-sdelat-sajt-na-wordpress-mnogoyazychnym.php
+
+
+
