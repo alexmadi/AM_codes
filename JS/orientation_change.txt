@@ -1,0 +1,22 @@
+var $recommendationImage = $('.last-visited .product-image');
+
+    if ($recommendationImage.length > 0) {
+        $('.jcarousel-nav').css('top', $recommendationImage.height()/2 );
+
+        $(window).on('resize', function() {
+            $('.jcarousel-nav').css('top', $recommendationImage.height()/2 );
+        });
+
+        function doOnOrientationChange() {
+            switch(window.orientation) {
+                case -90:
+                case 90:
+                    $('.jcarousel-nav').css('top', $recommendationImage.height()/2 );
+                break;
+                default:
+                    $('.jcarousel-nav').css('top', $recommendationImage.height()/2 );
+                break;
+            }
+        }
+        window.addEventListener('orientationchange', doOnOrientationChange);
+    }

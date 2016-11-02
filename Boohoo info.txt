@@ -9,3 +9,6 @@ https://dev09-web-boohoo.demandware.net/on/demandware.store/Sites-Site/default/V
 
 
 http://confluence.ontrq.com/display/BHO/Frontend+environment+configuration+manual  - frontend env installation
+
+
+https://github.com/matthewhudson/device.js   

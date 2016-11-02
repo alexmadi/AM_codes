@@ -15,3 +15,15 @@ for (var i = 0, max = 5; i < max; i++) {
 }
 
 var items = document.querySelectorAll('.items');
+
+
+
+if (require('_core_ext/layout').isMobileView()) {
+    $('.sticky-header').addClass('js-header-static');
+
+    if ($('.sticky-header').hasClass('is_stuck'))  { 
+        $('html,body').stop(true, false).animate({  
+           scrollTop: $(".top-banner").offset().top 
+        });
+    }
+}

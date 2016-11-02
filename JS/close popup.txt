@@ -1,0 +1,6 @@
+    $(document).on('click', function () {
+        if (($cache.currentCountry.hasClass( 'selector-active' )) && (!$(event.target).closest( '.country-selector' ).length) && $( '.country-selector .selector' ).is( ":visible" )) {
+            $( this ).find( '.country-selector .current-country' ).removeClass( 'selector-active' );
+            $( this ).find( '.country-selector .selector' ).removeClass( 'active' );
+        }
+    });
