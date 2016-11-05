@@ -19,4 +19,16 @@ sunfitness
 
 Theme - interface
 
+//hvostinger
+oleksandrmad
+Hostpass2016
+exp.date - 2017-11-04 16:44:24 
+
+DOMAIN
+https://centrum.active24.cz
+kod zakaznika:	egeenfpz
+Login:	egeenfpz
+Pass:	7AiHM0tmTY
+e-mail:	edikdanylash@gmail.com
+
 
