@@ -75,3 +75,5 @@ define('DB_HOST', 'localhost');
 
 update_option('siteurl','http://sunfitness.cz');
 update_option('home','http://sunfitness.cz');
+
+
