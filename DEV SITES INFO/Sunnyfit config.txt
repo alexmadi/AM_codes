@@ -1,0 +1,34 @@
+Site address - sunnyfit.cz
+Email - Seznam.cz
+sunfitness@email.cz
+Pass - novaves
+
+Database name: sfs_db
+Database user login: sfs_user
+Database and user password: novaves2016
+
+
+Site admin panel:
+Login:    sfs_user
+Password: novaves2016/
+
+Hosting - https://hvosting.ua/
+
+Login to hosting site: oleksandrmad
+Password:              Hostpass2016
+Paid till 2017-11-04 16:44:24  (390.00 грн.)
+Host account:  h64974@h49.hvosting.ua
+Hosting admin panel: https://h49.hvosting.ua/manager/ispmgr
+Login user: h64974
+Password:   GWmjdcr7668
+IP: 91.200.40.49
+
+DOMAIN
+https://centrum.active24.cz
+https://centrum.active24.cz/UI.do?method=domains.detail&domain=sunnyfit.cz
+kod zakaznika:	egeenfpz
+Login:          egeenfpz
+Password:	7AiHM0tmTY
+e-mail:	        edikdanylash@gmail.com
+Zaplaceno do: 2.11.2017	
+
