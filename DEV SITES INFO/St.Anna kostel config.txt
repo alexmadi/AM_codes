@@ -11,6 +11,7 @@ Database
 church_site_db
 site_admin
 
+site_admin
 Church_site2016
 
 REPO
@@ -22,6 +23,14 @@ Contact Form 7
 Polylang
 
 http://pro-wordpress.ru/nastrojka-wordpress/kak-sdelat-sajt-na-wordpress-mnogoyazychnym.php
+
+draft migration
+http://st-anna-kostel.com.ua
+http://amwp.pe.hu
+DB
+u377729462_dsak
+u377729462_usak
+Church_site2016
 
 
 
