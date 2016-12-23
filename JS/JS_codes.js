@@ -27,3 +27,14 @@ if (require('_core_ext/layout').isMobileView()) {
         });
     }
 }
+
+
+
+// GET VIEWPORT DIMENSIONS
+var viewport = {
+    width  : $(window).width(),
+    height : $(window).height()
+};
+
+//get dimensions:
+alert(viewport.height);
