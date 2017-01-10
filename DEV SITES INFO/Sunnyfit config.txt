@@ -16,7 +16,7 @@ Hosting - https://hvosting.ua/
 
 Login to hosting site: oleksandrmad
 Password:              Hostpass2016
-Paid till 2017-11-04 16:44:24  (390.00 грн.)
+Paid till 2017-11-04 16:44:24  (390.00 UAH.)
 Host account:  h64974@h49.hvosting.ua
 Hosting admin panel: https://h49.hvosting.ua/manager/ispmgr
 Login user: h64974
@@ -30,5 +30,5 @@ kod zakaznika:	egeenfpz
 Login:          egeenfpz
 Password:	7AiHM0tmTY
 e-mail:	        edikdanylash@gmail.com
-Zaplaceno do: 2.11.2017	
+Paid till: 2.11.2017	
 

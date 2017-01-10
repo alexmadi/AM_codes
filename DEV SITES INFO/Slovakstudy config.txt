@@ -1,0 +1,48 @@
+Site address - slovakstudy.ua
+
+Email - slovakstudy@gmail.com
+Pass - ???? 
+Database 
+name: sls_db
+
+Database user 
+login: sls_admin
+Database and user password: 
+slspass2017
+Site 
+admin panel:
+
+Login:    sls_admin
+
+Password: 
+c
+
+Hosting - https://hvosting.ua/
+
+
+
+
+Login to hosting site: oleksandrmad
+
+
+Password:              
+Hostpass2016
+
+
+Paid till 2017-11-04 16:44:24  (390.00 uah.)
+
+Host account:  h64974@h49.hvosting.ua
+
+Hosting admin panel: 
+https://h49.hvosting.ua/manager/ispmgr
+
+Login user: h64974
+Password:   GWmjdcr7668
+IP: 91.200.40.49
+
+
+
+
+000webhost
+DB   -   id484801_sls_db
+USER -   id484801_sls_admin
