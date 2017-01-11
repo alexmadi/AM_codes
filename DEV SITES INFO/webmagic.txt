@@ -1,0 +1,51 @@
+Site address - webmagic.com.ua
+
+Email - webmagic@gmail.com
+
+Pass - magicpass17
+
+Database 
+name: mg_db
+
+Database user 
+login: mg_us
+Database and user password: 
+magicpass17
+Site 
+admin panel:
+
+Login:    mg_us
+
+Password: 
+magicpass17
+
+
+Hosting - https://hvosting.ua/
+
+
+
+
+Login to hosting site: oleksandrmad
+
+
+Password:              
+Hostpass2016
+
+
+Paid till 2017-11-04 16:44:24  (390.00 uah.)
+
+Host account:  h64974@h49.hvosting.ua
+
+Hosting admin panel: 
+https://h49.hvosting.ua/manager/ispmgr
+
+Login user: h64974
+Password:   GWmjdcr7668
+IP: 91.200.40.49
+
+
+
+
+000webhost
+DB   -   id484801_sls_db
+USER -   id484801_sls_admin
