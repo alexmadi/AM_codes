@@ -15,7 +15,7 @@ admin panel:
 Login:    sls_admin
 
 Password: 
-c
+slspass2017/
 
 Hosting - https://hvosting.ua/
 
@@ -46,3 +46,25 @@ IP: 91.200.40.49
 000webhost
 DB   -   id484801_sls_db
 USER -   id484801_sls_admin
+
+draft migration
+http://slovakstudy.ua
+http://amwp.pe.hu
+DB
+
+u377729462_dsls
+u377729462_usls
+
+slspass2017
+
+
+5gbfree
+oleksandrmad
+a238c046
+
+http://amweb.h1n.ru/
+DB name
+
+mwrcnuvz_dsls
+
+mwrcnuvz_usls
