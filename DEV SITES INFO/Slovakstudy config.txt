@@ -19,9 +19,6 @@ c
 
 Hosting - https://hvosting.ua/
 
-
-
-
 Login to hosting site: oleksandrmad
 
 
@@ -46,3 +43,4 @@ IP: 91.200.40.49
 000webhost
 DB   -   id484801_sls_db
 USER -   id484801_sls_admin
+
