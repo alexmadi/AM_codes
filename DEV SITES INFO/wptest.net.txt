@@ -1,23 +1,24 @@
-Site address - webmagic.com.ua
+Site address - wptest.net
 
-Email - webmagic@gmail.com
+Email - oleksandrmad@gmail.com
 
-Pass - magicpass17
+Pass - testpass93
 
 Database 
-name: mg_db
-
+name: tdb
+u377729462_tdb
 Database user 
-login: mg_us
+u377729462_tdu
+login: tdu
 Database and user password: 
-magicpass17
+testpass93
 Site 
 admin panel:
 
-Login:    mg_us
+Login:    tw_admin
 
 Password: 
-magicpass17
+testpass93
 
 
 Hosting - https://hvosting.ua/
@@ -52,10 +53,3 @@ USER -   id484801_sls_admin
 
 id484801_mg_db
 id484801_mg_us
-
-
-hostinger
-http://amweb.pe.hu/
-
-u916719438_mgd
-u916719438_mhu
