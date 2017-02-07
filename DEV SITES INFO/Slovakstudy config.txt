@@ -1,68 +1,39 @@
-Site address - slovakstudy.ua
+Site address: slovakstudy.com
+Email:        slovakstudy@gmail.com
 
-Email - slovakstudy@gmail.com
-Pass - ???? 
-Database 
+Site admin panel
+login:    sls_admin
+password: slspass2017/
+
+HOSTING (380UAH/year) paid 15.02.2017 
+DOMAIN  (315UAH/year) paid 10.02.2017
+hosting site:        ukraine.com.ua
+HOSTING ADMIN PANEL: https://adm.tools/hosting/
+email for login:     gavelv7@gmail.com
+pass:                19910107
+Account: slovakst
+
+HOST: slovakst.ftp.ukraine.com.ua
+user: slovakst_ftp
+pass: brmBdPGV
+2-nd user 
+name: slovakst_m
+p: m23d6zz4
+
+HOSTING DATABASE:(wp_config)
+DB_NAME: slovakst_db
+DB_USER: slovakst_db
+pass: mWDC49Xl
+HOST: slovakst.mysql.ukraine.com.ua
+
+Slovakstudy Analytics / Slovakstudy
+
+ID: UA-91406787-1
+
+
+//local
+DATABASE 
 name: sls_db
-
-Database user 
-login: sls_admin
+DATABASE user: sls_admin
 Database and user password: 
 slspass2017
-Site 
-admin panel:
-
-Login:    sls_admin
-
-Password: 
-slspass2017/
-
-Hosting - https://hvosting.ua/
-
-Login to hosting site: oleksandrmad
-
-
-Password:              
-Hostpass2016
-
-
-Paid till 2017-11-04 16:44:24  (390.00 uah.)
-
-Host account:  h64974@h49.hvosting.ua
-
-Hosting admin panel: 
-https://h49.hvosting.ua/manager/ispmgr
-
-Login user: h64974
-Password:   GWmjdcr7668
-IP: 91.200.40.49
-
-
-
-
-000webhost
-DB   -   id484801_sls_db
-USER -   id484801_sls_admin
-
-draft migration
-http://slovakstudy.ua
-http://amwp.pe.hu
-DB
-
-u377729462_dsls
-u377729462_usls
-
-slspass2017
-
-
-5gbfree
-oleksandrmad
-a238c046
-
-http://amweb.h1n.ru/
-DB name
-
-mwrcnuvz_dsls
-
-mwrcnuvz_usls
-
