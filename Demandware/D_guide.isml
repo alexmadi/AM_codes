@@ -93,3 +93,10 @@ Ctrl-H search class in eclipse
 Temp-def-rend-cat
 Task for Demandware exchange
 astound02.alliance-prtnr-eu01.dw.demandware.net
+
+
+// random SRC in LOOP
+<isset name="tileItemCount" value="${0}" scope="page"/>
+<isset name="tileItemSrc" value="http://fakeimg.pl/600x400/999/?text=" scope="page"/>
+<isset name="tileItemCount" value="${tileItemCount + 1}" scope="page"/>
+<img src=${tileItemSrc + tileItemCount} alt=""/>
