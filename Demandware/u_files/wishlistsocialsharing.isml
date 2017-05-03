@@ -1,0 +1,38 @@
+<iscontent type="text/html" charset="UTF-8" compact="true"/>
+<isset name="pageUrl" value="${URLUtils.https('Wishlist-ShowOther', 'WishListID', pdict.ProductList.UUID)}" scope="page" />
+<isset name="escapedUrl" value="${pageUrl ? encodeURIComponent(pageUrl): ''}" scope="page" />
+<isset name="title" value="${Resource.msg('account.email.subject.wishlist', 'account', null)}" scope="page" />
+<isset name="escapedTitle" value="${pdict.title ? encodeURIComponent(pdict.title) : title}" scope="page" />
+<div class="share-options">
+    <span class="button js-social-sharing-toggler social-sharing-toggler">${Resource.msg('social.share', 'account', null)}</span>
+</div>
+<div class="social-sharing-panel">
+    <div class="socialsharing">
+        <a class="share-icon js-socialsharing-link" title="${Resource.msg('global.socialshare.facebook.label', 'locale', null)}" data-share="facebook" href="https://www.facebook.com/sharer/sharer.php?u=${escapedUrl}" target="_blank">
+            <i class="icon-facebook"></i>
+            <span class="visually-hidden">${Resource.msg('global.socialshare.facebook', 'locale', null)}</span>
+        </a>
+        <a class="share-icon js-socialsharing-link" title="${Resource.msg('global.socialshare.twitter.label', 'locale', null)}" data-share="twitter" href="https://twitter.com/intent/tweet/?url=${escapedUrl}&text=${escapedTitle}" target="_blank">
+            <i class="icon-twitter"></i>
+            <span class="visually-hidden">${Resource.msg('global.socialshare.twitter', 'locale', null)}</span>
+        </a>
+        <a class="share-icon" title="${Resource.msg('global.socialshare.instagram', 'locale', null)}" href="https://www.instagram.com/nastygal/" target="_blank">
+            <i class="icon-instagram"></i>
+            <span class="visually-hidden">${Resource.msg('global.socialshare.instagram', 'locale', null)}</span>
+        </a>
+        <a class="share-icon" title="${Resource.msg('global.socialshare.snapchat', 'locale', null)}" href="https://www.snapchat.com/add/nastygal" target="_blank">
+            <i class="icon-snapchat"></i>
+            <span class="visually-hidden">${Resource.msg('global.socialshare.snapchat', 'locale', null)}</span>
+        </a>
+        <a class="share-icon" title="${Resource.msg('global.socialshare.email.label', 'locale', null)}" data-share="email" href="mailto:name@email.com?subject=${escapedTitle}&body=${escapedUrl}" target="_blank">
+            <i class="icon-envelope-closed-share"></i>
+            <span class="visually-hidden">${Resource.msg('global.socialshare.email', 'locale', null)}</span>
+        </a>
+    </div>
+    <div class="share-link-content">
+        ${Resource.msg('wishlist.share.link','account',null)}:
+        <a class="js-wishlist-share" href="${pageUrl}" target="_blank">
+            <isprint value="${pageUrl}"/>
+        </a>
+    </div>
+</div>

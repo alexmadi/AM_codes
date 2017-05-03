@@ -1,0 +1,43 @@
+zakarpattya-mebli
+
+mclass.ftp.ukraine.com.ua
+mclass_zakar1
+4895hllt
+yM8XrS21j1
+
+zakarpattya-mebli
+
+mclass.ftp.ukraine.com.ua
+mclass_zakar1
+4895hllt
+yM8XrS21j1
+
+
+// PLP - chapters/stilci_iz_naturalnogo_dereva_zakarpattya_vid_vyrobnyka
+PDP - zakarpattya-mebli\stilec_iz_naturalnogo_dereva_zakarpattya_vid_vyrobnyka_model_tverdyy.php:
+- zakarpattya-mebli\chapters\stilec_iz_naturalnogo_dereva_zakarpattya_vid_vyrobnyka_model_tverdyy.dat:
+
+удалити:
+
+Твердий
+табурет твердий
+табурет мякий
+табурет барний круглий
+стілець Франк
+кух кутик №1
+кух кутик Люкс
+лавка "класична"
+
+Змінити ціну на стільчики: 
+- Версаче - 720грн
+- Граф - 690грн
+
+0932366040
+
+0985320168 - Вася сайт
+
+
+
+
+
+

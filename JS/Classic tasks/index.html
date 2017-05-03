@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+    <meta http-equiv="keywords" content="" />
+    <meta http-equiv="description" content="" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+    <title>Test</title>
+    <style>
+        .required {
+            color: red;
+        }
+
+        .dialog {
+            display: none;
+            width: 600px;
+            height: 500px;
+            background: #ccc;
+            margin: 0 auto;
+            margin-top: 100px;
+        }
+        .dialog.active {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+<div class="js-button button" onclick="openDiaolog()">
+    Open dialog
+</div>
+<div class="js-dialog dialog">
+    Dialog content
+</div>
+
+
+
+<!--
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
+-->
+    <script src="app.js" async></script>
+</body>
+</html>

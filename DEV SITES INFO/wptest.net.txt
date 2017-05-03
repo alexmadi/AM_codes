@@ -53,3 +53,8 @@ USER -   id484801_sls_admin
 
 id484801_mg_db
 id484801_mg_us
+
+
+5gbfree
+oleksandrmad
+a238c046

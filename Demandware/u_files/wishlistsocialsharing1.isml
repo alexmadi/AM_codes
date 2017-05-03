@@ -1,0 +1,24 @@
+<iscontent type="text/html" charset="UTF-8" compact="true"/>
+<isset name="pageUrl" value="${URLUtils.https('Wishlist-ShowOther', 'WishListID', pdict.ProductList.UUID)}" scope="page" />
+<isset name="ContentAssetUtils" value="${require('~/cartridge/scripts/util/ContentAssetUtils')}" scope="page" />
+<isset name="isSocialSharingAvaliable" value="${ContentAssetUtils.isContentAvaliable('wishlist-social-sharing')}" scope="page" />
+<isset name="escapedUrl" value="${pageUrl ? encodeURIComponent(pageUrl): ''}" scope="page" />
+<isset name="title" value="${Resource.msg('account.email.subject.wishlist', 'account', null)}" scope="page" />
+<isset name="escapedTitle" value="${pdict.title ? encodeURIComponent(pdict.title) : title}" scope="page" />
+<div class="share-options">
+    <isif condition="${isSocialSharingAvaliable}">
+        <span class="button js-social-sharing-toggler social-sharing-toggler">${Resource.msg('social.share', 'account', null)}</span>
+    </isif>
+</div>
+<isif condition="${isSocialSharingAvaliable}">
+    <div class="social-sharing-panel"> 
+        <iscontentasset aid="wishlist-social-sharing"/>
+        <a class="share-email-icon js-share-email-button" id="js-share-email-button" title="${Resource.msg('global.socialshare.email.label', 'locale', null)}" data-share="email" href="mailto:name@email.com?subject=${escapedTitle}&body=${escapedUrl}"><span>${Resource.msg('global.socialshare.email', 'locale', null)}</span></a>
+        <div class="share-link-content">
+            ${Resource.msg('wishlist.share.link','account',null)}:
+            <a class="js-wishlist-share" href="${pageUrl}" target="_blank">
+                <isprint value="${pageUrl}"/>
+            </a>
+        </div>
+    </div>
+</isif>
