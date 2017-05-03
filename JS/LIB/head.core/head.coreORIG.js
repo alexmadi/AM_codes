@@ -100,8 +100,7 @@
 
     // browser type & version
     var ua     = nav.userAgent.toLowerCase(),
-        mobile = /mobile|android|kindle|silk|midp|phone|(windows .+arm|touch)/.test(ua),
-        isIosChrome = ua.indexOf("crios");
+        mobile = /mobile|android|kindle|silk|midp|phone|(windows .+arm|touch)/.test(ua);
 
     // useful for enabling/disabling feature (we can consider a desktop navigator to have more cpu/gpu power)
     api.feature("mobile" , mobile , true);
@@ -117,8 +116,7 @@
         /(trident).+rv:(\w.)+/.exec(ua) || [];
 
     var browser = ua[1],
-        version = parseFloat(ua[2]),
-        iosBrowser = null;
+        version = parseFloat(ua[2]);
 
     switch (browser) {
     case "msie":
@@ -135,12 +133,6 @@
     case "ipad":
     case "iphone":
         browser = "ios";
-
-        if (isIosChrome >= 0) {
-            iosBrowser = "chrome";
-        } else {
-            iosBrowser = "safari";
-        }
         break;
         
     case "webkit":
@@ -202,9 +194,6 @@
 
     pushClass(browser);
     pushClass(browser + parseInt(version, 10));
-    if (iosBrowser) {
-        pushClass(iosBrowser);
-    }
 
     // IE lt9 specific
     if (conf.html5 && browser === "ie" && version < 9) {

@@ -1,5 +1,5 @@
 Site address: slovakstudy.com
-Email:        slovakstudy@gmail.com
+Email:        slovakstudy@gmail.com / 19910107
 
 Site admin panel
 login:    sls_admin

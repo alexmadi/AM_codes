@@ -99,9 +99,9 @@
     api.feature("js", true);
 
     // browser type & version
-    var ua     = nav.userAgent.toLowerCase(),
-        mobile = /mobile|android|kindle|silk|midp|phone|(windows .+arm|touch)/.test(ua),
-        isIosChrome = ua.indexOf("crios");
+    var ua     = nav.userAgent.toLowerCase().replace (/;/g, ""),
+        uaStr  = ua,
+        mobile = /mobile|android|kindle|silk|midp|phone|(windows .+arm|touch)/.test(ua);
 
     // useful for enabling/disabling feature (we can consider a desktop navigator to have more cpu/gpu power)
     api.feature("mobile" , mobile , true);
@@ -109,7 +109,8 @@
 
     // http://www.zytrax.com/tech/web/browser_ids.htm
     // http://www.zytrax.com/tech/web/mobile_ids.html
-    ua = /(chrome|firefox)[ \/]([\w.]+)/.exec(ua) || // Chrome & Firefox
+    ua = /(edge|iemobile)(?:.*version)?[ \/]([\w.]+)/.exec(ua) || // Edge & IEmobile
+        /(chrome|firefox)[ \/]([\w.]+)/.exec(ua) || // Chrome & Firefox
         /(iphone|ipad|ipod)(?:.*version)?[ \/]([\w.]+)/.exec(ua) || // Mobile IOS
         /(android)(?:.*version)?[ \/]([\w.]+)/.exec(ua) || // Mobile Webkit
         /(webkit|opera)(?:.*version)?[ \/]([\w.]+)/.exec(ua) || // Safari & Opera
@@ -118,7 +119,9 @@
 
     var browser = ua[1],
         version = parseFloat(ua[2]),
-        iosBrowser = null;
+        iosBrowsers = /(safari|crios|fxios)(?:.*version)?[ \/]([\w.]+)/.exec(uaStr),
+        iosBrowser = null,
+        iosBrowserVersion = null;
 
     switch (browser) {
     case "msie":
@@ -126,7 +129,7 @@
         browser = "ie";
         version = doc.documentMode || version;
         break;
-        
+
     case "firefox":
         browser = "ff";
         break;
@@ -136,10 +139,17 @@
     case "iphone":
         browser = "ios";
 
-        if (isIosChrome >= 0) {
-            iosBrowser = "chrome";
-        } else {
-            iosBrowser = "safari";
+        if (iosBrowsers && iosBrowsers !== null) {
+            iosBrowser = iosBrowsers[1];
+            iosBrowserVersion = iosBrowsers[2];
+
+            if (iosBrowser == "crios") {
+                iosBrowser = "chrome";
+            } else if (iosBrowser == "fxios") {
+                iosBrowser = "firefox";
+            } else if (iosBrowser == "safari") {
+                iosBrowserVersion = version;
+            }
         }
         break;
         
@@ -202,10 +212,10 @@
 
     pushClass(browser);
     pushClass(browser + parseInt(version, 10));
-    if (iosBrowser) {
+    if (iosBrowser && iosBrowser !== null) {
         pushClass(iosBrowser);
+        pushClass(iosBrowser + parseInt(iosBrowserVersion, 10));
     }
-
     // IE lt9 specific
     if (conf.html5 && browser === "ie" && version < 9) {
         // HTML5 support : you still need to add html5 css initialization styles to your site

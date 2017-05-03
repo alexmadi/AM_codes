@@ -1,0 +1,60 @@
+Site address - wptest.net
+
+Email - oleksandrmad@gmail.com
+
+Pass - testpass93
+
+Database 
+name: oct_db
+testpass93
+Database user 
+oct_u
+login: tdu
+Database and user password: 
+testpass93
+Site 
+admin panel:
+
+Login:    admin
+
+Password: 
+testpass93
+
+
+Hosting - https://hvosting.ua/
+
+
+
+
+Login to hosting site: oleksandrmad
+
+
+Password:              
+Hostpass2016
+
+
+Paid till 2017-11-04 16:44:24  (390.00 uah.)
+
+Host account:  h64974@h49.hvosting.ua
+
+Hosting admin panel: 
+https://h49.hvosting.ua/manager/ispmgr
+
+Login user: h64974
+Password:   GWmjdcr7668
+IP: 91.200.40.49
+
+
+
+
+000webhost
+DB   -   id484801_sls_db
+USER -   id484801_sls_admin
+
+id484801_mg_db
+id484801_mg_us
+
+
+5gbfree
+oleksandrmad
+a238c046

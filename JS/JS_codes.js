@@ -38,3 +38,9 @@ var viewport = {
 
 //get dimensions:
 alert(viewport.height);
+
+
+/// get class
+
+var className = $('body').attr('class');
+alert(className);
