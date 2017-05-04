@@ -37,3 +37,9 @@ name: sls_db
 DATABASE user: sls_admin
 Database and user password: 
 slspass2017
+
+
+Adding reCAPTCHA to your site
+[recaptcha]
+Site key - 6LddByAUAAAAAFbPHOqm8gLuzc36TOnEfe3mBBQ3
+Secret key - 6LddByAUAAAAAFK1UVrMbE_NB21AUoBjn_v_DAU6
