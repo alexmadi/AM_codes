@@ -1,0 +1,89 @@
+https://packagecontrol.io/installation
+https://packagecontrol.io/packages/Emmet#how-to-install
+https://download.sublimetext.com/Sublime%20Text%20Build%203083%20x64.zip
+
+
+SUBLIME CHROME BUILD SYSTEM
+
+http://michaelcrump.net/getting-sublime-3-to-launch-your-html-page-in-a-browser-with-a-key-combo/
+
+{
+    "cmd": ["C:\/Program Files (x86)\/Google\/Chrome\/Application\/chrome.exe", "$file"]
+}
+save as Chrome.sublime-build     in USER folder
+
+==
+
+LIVERELOAD SUBLIME
+
+https://github.com/Grafikart/ST3-LiveReload
+1.download . Rename(delete st3) and paste to Packeges(Pref-Browse P.)
+2. Install extention to browser
+http://livereload.com/extensions/
+3. Paste in Pref-Packages set- Set.Default
+{
+    "enabled_plugins": [
+    "SimpleReloadPlugin", 
+    "SimpleRefresh" 
+    ]
+}
+...in Pref-Set.User  - too
+
+
+ADDING KEYS TO SUBLIME
+
+reindent - CLEAR CODE
+[
+    { "keys": ["ctrl+shift+r"], "command": "reindent" , "args": { "single_line": false } }    
+]
+
+
+
+
+
+
+
+Java install
+http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html
+eclipse
+https://eclipse.org/downloads/
+Eclipse IDE for Java EE Developers
+
+Ctrl+Shift+R - search
+
+Ctrl+H search class in eclipse
+---------------------------------
+
+
+
+
+
+
+
+Skype
+ mute -- 
+/alertsoff
+
+
+
+
+
+
+MOBIFY installation
+
+https://github.com/mobify/workshop--adaptivejs-site/blob/master/README.md
+https://github.com/mobify/workshop--adaptivejs-site/blob/set-up/README.md
+
+# install yo 
+npm install --global yo
+
+# install a generator 
+npm install --global generator-webapp
+
+npm install -g generator-adaptivejs
+gem install bundler
+bundle install
+
+
+
+

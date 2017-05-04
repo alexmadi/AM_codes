@@ -1,0 +1,38 @@
+install Open Server
+
+OpenServer\domains > create site folder
+
+Create DB
+Open OpenServer - More - PhpMyAdmin
+
+ \/ Databases
+ 
+enter db bane - create
+
+open db
+\/ Privileges - Add User
+
+
+Login - root
+Pass - ''
+
+DB
+am_test
+am_admin
+Testpass93
+
+site - wptest.com
+
+
+
+
+Hostinger
+
+amwp.pe.hu
+
+amwp.pe.hu/admin
+
+mail - minimalist@bk.ru
+admin name Oleksandr
+P - Testpass93
+Sunfitness

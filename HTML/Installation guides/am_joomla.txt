@@ -1,0 +1,17 @@
+localhost/am_joomla
+localhost/Tools - створюємо БД
+
+err 
+X:\usr\local\mysql-5.5
+mi.ini buffer_size 64 to 256
+
+логін адм
+oleksandrmad
+п - oleksandrmad
+
+тип БД MySQl
+На кшталт, як "root" або ім'я користувача визначене хостинг-провайдером - admin
+Префікс таблиці *
+e3aef_
+імя БД - am_joomla
+новий користувач am_joomla - п. oleksandrmad

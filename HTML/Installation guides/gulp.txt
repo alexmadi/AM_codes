@@ -1,0 +1,107 @@
+COMPILE WITH RUBY_SASS
+npm install ruby-sass
+sass --watch scss:css
+
+ruby dk.rb init
+ruby dk.rb install
+
+paste - C:/Ruby22-x64   in config.yml    // no ‘ ‘ in pass
+
+
+GULP
+
+==
+created folder production for all site files
+in project folder --
+npm install gulp
+npm init
+npm install gulp-sass --save-dev
+npm install --save-dev gulp-sourcemaps
+npm install --save-dev gulp-connect
+npm install --save-dev gulp-livereload
+npm install --save-dev gulp-open
+
+npm install --save-dev gulp-imagemin
+npm install --save-dev gulp-autoprefixer
+npm i --save-dev gulp.spritesmith
+npm install components-font-awesome
+
+
+
+// After you copied folder
+npm install gulp
+npm install
+
+
+BUILD
+npm install -g bower
+bower init
+change bower.json
+,
+  "dependencies": {
+    "normalize.css": "*",
+    "jquery": "2.*"
+  }
+bower i
+bower list --path
+bower update jquery
+
+npm install --save-dev gulp-rigger
+
+
+// npm rebuild node-sass
+==
+npm init
+npm install --save dev gulp-autoprefixer    
+npm install --save dev gulp-minify-css 
+npm install --save dev browser-sync  ERROR
+npm install -g node-gyp  
+npm update   in global c.w.
+npm install node gyp rebuild
+node-gyp --python C:\Program Files\Python2.7\python.exe
+npm config set python C:\Program Files\Python2.7\python.exe
+node-gyp configure set python C:\Program Files\Python2.7\python.exe
+npm install --save-dev gulp-imagemin
+npm install --save imagemin-pngquant
+npm install --save dev gulp-uglify
+npm install --save dev gulp-sass
+npm install --save dev gulp-sourcemaps
+npm install --save dev gulp-rigger
+npm install --save dev gulp-watch
+
+
+npm install -g bower
+PATH
+;C:\Program Files\Git\bin;C:\Program Files\Git\cmd
+bower init
+bower install --save jquery
+
+
+gulp html:build
+
+npm link gulp
+
+npm rebuild node-sass
+
+npm install --save-dev gulp-livereload
+
+
+
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help json` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg> --save` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+http://www.creative-seo.ru/blog/gulp-dlya-nachinayushchih/
+https://nodejs.org/en/
+
+
+http://www.sitepoint.com/simple-gulpy-workflow-sass/
+http://www.creative-seo.ru/blog/gulp-sass/
+http://blog.dwaynecrooks.com/post/110903139442/why-do-we-need-to-install-gulp-globally-and
+
+
