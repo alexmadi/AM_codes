@@ -1,0 +1,96 @@
+В Joomla файл configuration.php:
+
+var $host = 'сервер';
+var $user = 'имя_пользователя';
+var $db = 'имя_базы_данных';
+var $password = 'пароль';
+В WordPress файл wp-config.php:
+
+define('DB_NAME', 'имя_базы_данных');
+define('DB_USER', 'имя_пользователя');
+define('DB_HOST', 'сервер');
+define('DB_PASSWORD', 'пароль');
+В Drupal 6 файл /site/default/settings.php, в котором есть строка: 
+
+$db_url = 'mysql://username:password@mysqlhost/databasename';
+Где:
+
+username - имя пользователя;
+password - пароль;
+mysqlhost - сервер базы данных;
+databasename - имя базы данных.
+В Drupal 7 файл /site/default/settings.php:
+
+'database' => 'имя базы данных',
+'username' => 'имя пользователя',
+'password' => 'пароль',
+'host' => 'сервер',
+В DLE файл /engine/data/dbconfig.php:
+
+define ("DBHOST", "сервер");
+define ("DBNAME", "имя_базы_данных");
+define ("DBUSER", "имя_пользователя");
+define ("DBPASS", "пароль");
+В Shop-script файл /cfg/connect.inc.php
+
+define('DB_HOST', 'сервер');
+define('DB_USER', 'имя_пользователя');
+define('DB_PASS', 'пароль');
+define('DB_NAME', 'имя_базы_данных');
+В ShopCMS файл /core/config/connect.inc.php: *
+
+define('DB_HOST', 'сервер');
+define('DB_USER', 'имя_пользователя');
+define('DB_PASS', 'пароль');
+define('DB_NAME', 'имя_базы_данных');
+* в некоторых случаях может потребоваться изменить эти данные так же в файлах core/cache/afcache.php и core/cache/fcache.php  При этом файлы находящиеся в каталоге core/cache/  и начинающиеся с %% нужно удалить.
+
+В WebAsyst файлы /dblist/логин.xml, /kernel/wbs.xml и файл кеша /temp/scdb/.settings.логин:
+
+SQLSERVER="сервер"
+DB_NAME="имя_базы_данных"
+DB_PASSWORD="пароль"
+DB_USER="имя_пользователя"
+В PrestaShop файл /config/settings.inc.php:
+
+define('_DB_NAME_', 'имя_базы_данных');
+
+define('_DB_SERVER_', 'сервер');
+define('_DB_USER_', 'имя_пользователя');
+define('_DB_PASSWD_', 'пароль');
+В MODx файл /manager/includes/config.inc.php:
+
+$database_server = 'сервер';
+$database_user = 'имя_пользователя';
+$database_password = 'пароль';
+$dbase = 'имя_базы_данных’;
+В Bitrix файл /bitrix/php_interface/dbconn.php:
+
+$DBHost = "сервер";
+$DBLogin = "имя_пользователя";
+$DBPassword = "пароль";
+$DBName = "имя_базы_данных";
+В CMS PHPShop файл /phpshop/inc/config.ini:
+
+host = "сервер";
+user_db = "имя_пользователя";
+pass_db = "пароль";
+dbase = "имя_базы_данных";
+В СMS Opencart файлы config.php и admin/config.php
+
+define('DB_HOSTNAME', 'сервер');
+define('DB_USERNAME', 'имя_пользователя');
+define('DB_PASSWORD', 'пароль');
+define('DB_DATABASE', 'имя_базы_данных');
+В СMS Magento файл app/etc/local.xml 
+
+<host><![CDATA[сервер]]></host>
+<username><![CDATA[имя_пользователя]]></username>
+<password><![CDATA[пароль]]></password>
+<dbname><![CDATA[имя_базы_данных]]></dbname>
+В ImageCMS файл application/config/database.php:
+
+$db['default']['hostname'] = 'сервер';
+$db['default']['username'] = 'имя пользователя';
+$db['default']['password'] = 'пароль';
+$db['default']['database'] = 'имя базы данных';

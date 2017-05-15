@@ -4,6 +4,17 @@ Email - oleksandrmad@gmail.com
 
 Pass - testpass93
 
+
+LOCAL DATABASE
+wpt_db
+wpt_u
+testpass93
+WP ADMIN:
+admin
+testpass93
+oleksandrmad@gmail.com
+
+
 Database 
 name: tdb
 u377729462_tdb

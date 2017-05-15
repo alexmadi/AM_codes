@@ -1,0 +1,55 @@
+Site address: consulting.ua
+Email:        oleksandrmad@gmail.com / ??
+
+- Site admin panel
+login:    cs_admin
+password: cspass2017/
+
+- Local DATABASE 
+name: cs_db
+DATABASE user: cs_dbu
+Database and user password: 
+cspass2017/
+
+
+- TEMP HOST DB
+https://h49.hvosting.ua/manager/ispmgr
+
+Login user: h64974
+Password:   GWmjdcr7668
+IP: 91.200.40.49
+DB NAME
+mwrcnuvz_cs
+cspass2017/
+
+
+
+
+
+
+
+
+http://www.craigteel.com/
+
+https://demo.themegrill.com/ample/
+
+http://concol.ru/ - example
+
+http://lsproductions.com/
+
+Site Menu Anchors One-Page Site
+http://preview.themeforest.net/item/rhythm-responsive-wordpress-multipurpose-theme/full_screen_preview/11330434?clickthrough_id=1012543021&redirect_back=true&ref=cirvitis
+
+http://demo.vellumwp.com/home-pages/wedding/
+
+http://justfreethemes.com/demo?theme=Zerif%20Lite
+https://justfreethemes.com/asterion/
+
+
+
+https://onepagelove.com/tag/left-navigation/page/3
+!!   http://www.craigteel.com/#Resume
+http://rawfoundation.org/making-waves/
+https://themehunk.com/wp-themes/oneline-lite/
+https://www.templatemonster.com/demo/59027.html
+https://www.templatemonster.com/demo/63408.html
