@@ -1,0 +1,4 @@
+HTTP
+Apache-2.2
+PHP-5.4
+MySQL-5.5

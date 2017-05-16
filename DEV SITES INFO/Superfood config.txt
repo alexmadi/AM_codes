@@ -1,0 +1,23 @@
+Site address: consulting.ua
+Email:        oleksandrmad@gmail.com / ??
+
+- Site admin panel
+login:    cs_admin   / cg_admin
+password: cspass2017/
+
+- Local DATABASE 
+name: cs_db   / cg_db
+DATABASE user: cs_dbu  / cg_dbu  / cgpass2017/ 
+Database and user password: 
+cspass2017/
+
+
+
+https://www.organicburst.com
+
+https://themeisle.com/purchase-history/
+https://accesspressthemes.com/blog/best-free-woocommerce-wordpress-themes/
+http://accesspressthemes.com/theme-demos/?theme=storevilla&wpam_id=170
+https://themeisle.com/demo/?theme=ShopIsle&utm_source=apress&utm_medium=listing&utm_campaign=apress
+Username: minimalist@bk.ru
+Password: kwpYY4hGQXeE

@@ -2,14 +2,15 @@ Site address: consulting.ua
 Email:        oleksandrmad@gmail.com / ??
 
 - Site admin panel
-login:    cs_admin
+login:    cs_admin   / cg_admin
 password: cspass2017/
 
 - Local DATABASE 
-name: cs_db
-DATABASE user: cs_dbu
+name: cs_db   / cg_db
+DATABASE user: cs_dbu  / cg_dbu  / cgpass2017/ 
 Database and user password: 
 cspass2017/
+
 
 
 - TEMP HOST DB
