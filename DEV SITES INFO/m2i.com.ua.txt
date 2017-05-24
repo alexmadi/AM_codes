@@ -1,15 +1,19 @@
-Site address: consulting.ua
-Email:        oleksandrmad@gmail.com / ??
+Site address: m2i.com.ua
+Email:        consulting.m2i@gmail.com / 15000$permonth
+Site name: Move2improve
 
 - Site admin panel
-login:    cs_admin   / cg_admin
-password: cspass2017/
+login:    m2i_admin        ( cs_admin   / cg_admin / )
+password: m2ipass2017/     ( cspass2017/ cgpass2017/ )
 
 - Local DATABASE 
-name: cs_db   / cg_db
-DATABASE user: cs_dbu  / cg_dbu  / cgpass2017/ 
+name: m2i_db               ( cs_db / cg_db / )
+DATABASE user: root
 Database and user password: 
-cspass2017/
+m2ipass2017/ 
+
+
+
 
 
 
