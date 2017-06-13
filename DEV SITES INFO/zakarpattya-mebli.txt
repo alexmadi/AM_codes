@@ -1,5 +1,43 @@
 zakarpattya-mebli
 
+HOSTING  ukraine.com.ua
+mebli.zakarpattya@gmail.com
+Zakmeblipass
+
+info@
+Zakmeblipass
+mala.romanivna@gmail.com
+
+Host user:
+zmhost0
+
+zmhost0_ftp
+zmhost0.ftp.ukraine.com.ua
+TCC6aPje
+
+
+mala.romanivna@gmail.com
+Pigage95
+
+Теліга
+Анатолій
+Телига Анатолий Антонович
++380673747007
+
+Домен
+288
+Хостинг 
+588
+-876грн
+
+
+HVOSTING
+LOGIN
+meblizakarpattya
+mebli.zakarpattya@gmail.com
+Zakmeblipass
+
+
 mclass.ftp.ukraine.com.ua
 mclass_zakar1
 4895hllt
@@ -17,27 +55,8 @@ yM8XrS21j1
 PDP - zakarpattya-mebli\stilec_iz_naturalnogo_dereva_zakarpattya_vid_vyrobnyka_model_tverdyy.php:
 - zakarpattya-mebli\chapters\stilec_iz_naturalnogo_dereva_zakarpattya_vid_vyrobnyka_model_tverdyy.dat:
 
-удалити:
 
-Твердий
-табурет твердий
-табурет мякий
-табурет барний круглий
-стілець Франк
-кух кутик №1
-кух кутик Люкс
-лавка "класична"
-
-Змінити ціну на стільчики: 
-- Версаче - 720грн
-- Граф - 690грн
-
-0932366040
-
-0985320168 - Вася сайт
-
-
-
+Олд Remote Address:108.161.189.48:80
 
 
 

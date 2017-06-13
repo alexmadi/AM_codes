@@ -1,15 +1,19 @@
-Site address: consulting.ua
+Site address: superfoodlife.com.ua
 Email:        oleksandrmad@gmail.com / ??
 
 - Site admin panel
-login:    cs_admin   / cg_admin
-password: cspass2017/
+login:    sf_admin
+password: sfpass2017/
 
 - Local DATABASE 
-name: cs_db   / cg_db
-DATABASE user: cs_dbu  / cg_dbu  / cgpass2017/ 
+name: sf_db
+DATABASE user: root
 Database and user password: 
-cspass2017/
+sfpass2017/
+
+amwp.pe.hu
+u377729462_sf
+testpass93
 
 
 
