@@ -1,6 +1,32 @@
-Site address: m2i.com.ua
+Site address: m2i.com.ua   move2improve.com.ua
 Email:        consulting.m2i@gmail.com / 15000$permonth
-Site name: Move2improve
+Site name:    Move2improve
+
+
+sites.pavlyshynets@gmail.com
+Sitespass20/
+Павлишинець Віталій Дмитрович
+0503722768
+
+GMAIL
+sites.pavlyshynets@gmail.com
+Sitespass20/
+
+ukraine.com.ua
+sites.pavlyshynets@gmail.com
+Sitespass20
+
+
+HOSTING
+
+move2imp_ftp
+move2imp.ftp.ukraine.com.ua
+LMzYKbxu
+
+DB:
+move2imp_db
+Cqe9Bxfr
+
 
 - Site admin panel
 login:    m2i_admin        ( cs_admin   / cg_admin / )
@@ -30,10 +56,6 @@ cspass2017/
 
 
 
-
-
-
-
 http://www.craigteel.com/
 
 https://demo.themegrill.com/ample/
@@ -58,3 +80,14 @@ http://rawfoundation.org/making-waves/
 https://themehunk.com/wp-themes/oneline-lite/
 https://www.templatemonster.com/demo/59027.html
 https://www.templatemonster.com/demo/63408.html
+
+
+
+
+
+
+
+clients - 2rows
+
+icons
+http://www.flaticon.com/packs/work-productivity-9
