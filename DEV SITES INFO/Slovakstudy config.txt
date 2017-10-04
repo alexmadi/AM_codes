@@ -19,6 +19,15 @@ pass: brmBdPGV
 2-nd user 
 name: slovakst_m
 p: m23d6zz4
+-- GOOD
+slovakst_dch
+m8mid320
+
+Reserved codes for access(ftp)
+rb438yr4 3iik26k7 06x2j5rf 
+05ak5p8z 5y44ugx9 l8p8nd26 
+7hz37a3c lx0o1m84 f00zxe40 
+6b11mly1 8no0vs07 49bv0mk1
 
 HOSTING DATABASE:(wp_config)
 DB_NAME: slovakst_db
@@ -43,3 +52,8 @@ Adding reCAPTCHA to your site
 [recaptcha]
 Site key - 6LddByAUAAAAAFbPHOqm8gLuzc36TOnEfe3mBBQ3
 Secret key - 6LddByAUAAAAAFK1UVrMbE_NB21AUoBjn_v_DAU6
+
+
+
+test local
+sls_data

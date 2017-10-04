@@ -1,0 +1,4 @@
+path
+C:\Program Files\Ruby23-x64\bin
+C:\Users\Sasha\AppData\Roaming\npm
+
