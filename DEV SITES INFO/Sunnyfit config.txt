@@ -1,9 +1,18 @@
 Site address - sunnyfit.cz
-Email - Seznam.cz
+Email - Seznam.cz  /   https://email.seznam.cz/#inbox
 sunfitness@email.cz
 Pass - novaves
 
-Database name: sfs_db
+REPO:
+info-sunnyfit
+
+OS config:
+
+apache-2.2 / 2.4
+php-5.4 / 5.6
+mysql-5.5 / 5.6
+
+Database name: sfs_db  /  sfs_db2
 Database user login: sfs_user
 Database and user password: novaves2016
 
@@ -20,7 +29,9 @@ Paid till 2017-11-04 16:44:24  (390.00 UAH.)
 Host account:  h64974@h49.hvosting.ua
 Hosting admin panel: https://h49.hvosting.ua/manager/ispmgr
 Login user: h64974
-Password:   GWmjdcr7668
+Password:   GWmjdcr7668   /   not - novaves2016/
+
+
 IP: 91.200.40.49
 
 DOMAIN

@@ -1,0 +1,9 @@
+
+
+Install RimRaf:
+
+npm install rimraf -g
+
+And in the project folder delete the node_modules folder with:
+
+rimraf node_modules
