@@ -12,16 +12,16 @@ GMAIL
 sites.pavlyshynets@gmail.com
 Sitespass20/
 
-ukraine.com.ua
+https://www.ukraine.com.ua/
 sites.pavlyshynets@gmail.com
 Sitespass20
 
 
 HOSTING
 
-move2imp_ftp
-move2imp.ftp.ukraine.com.ua
-LMzYKbxu
+Host: move2imp.ftp.ukraine.com.ua
+User: move2imp_ftp
+Pass: LMzYKbxu
 
 DB:
 move2imp_db

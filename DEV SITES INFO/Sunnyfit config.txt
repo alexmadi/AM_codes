@@ -22,9 +22,10 @@ Login:    sfs_user
 Password: novaves2016/
 
 Hosting - https://hvosting.ua/
+https://hvosting.ua/billing/makebill.html?orderid=64974
+Login: oleksandrmad
+Password: Hostpass2016
 
-Login to hosting site: oleksandrmad
-Password:              Hostpass2016
 Paid till 2017-11-04 16:44:24  (390.00 UAH.)
 Host account:  h64974@h49.hvosting.ua
 Hosting admin panel: https://h49.hvosting.ua/manager/ispmgr

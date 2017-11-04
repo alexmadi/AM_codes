@@ -16,6 +16,7 @@ Account: slovakst
 HOST: slovakst.ftp.ukraine.com.ua
 user: slovakst_ftp
 pass: brmBdPGV
+
 2-nd user 
 name: slovakst_m
 p: m23d6zz4

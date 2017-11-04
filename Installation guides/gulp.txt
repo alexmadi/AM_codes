@@ -1,3 +1,5 @@
+﻿npm install gulp --global
+
 COMPILE WITH RUBY_SASS
 npm install ruby-sass
 sass --watch scss:css
