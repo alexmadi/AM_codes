@@ -1,0 +1,20 @@
+
+// Add auto-increment column
+ALTER TABLE `cm_applications` ADD `ID` INT NOT NULL AUTO_INCREMENT PRIMARY KEY first
+
+// REMOVE Column
+ALTER TABLE `cm_applications` DROP ID
+
+ALTER TABLE `cm_applications` ADD Date date;
+
+sc_applications
+ALTER TABLE `sc_applications` ADD `ID` INT NOT NULL AUTO_INCREMENT PRIMARY KEY first
+ALTER TABLE `sc_applications` MODIFY `ID` INTEGER NOT NULL AUTO_INCREMENT;
+
+ALTER TABLE sc_applications AUTO_INCREMENT = 1
+
+http://wpengineer.com/2426/wp_list_table-a-step-by-step-guide/
+https://misha.blog/wordpress/interfacing-with-the-database.html
+https://wp-kama.ru/function/WP_List_Table::handle_row_actions
+
+ID

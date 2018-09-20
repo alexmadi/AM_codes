@@ -1,0 +1,61 @@
+@import 'bootstrap.css';
+
+* {
+    box-sizing: border-box;
+}
+
+.b-mailer {
+    padding: 40px;
+    margin-top: 40px;
+}
+
+.b-mailer__emails {
+    min-width: 500px;
+    height: 34px;
+    line-height: 34px;
+}
+
+.b-mailer__submit {
+    margin-top: 30px;
+}
+
+.f-form {
+    width: 100%;
+    padding: 0 20px;
+}
+
+.f-form__messages {
+    display: inline-block;
+    margin-left: 100px;
+}
+
+.b-mailer__clear-html {
+    float: right;
+}
+
+.f-row {
+    margin-bottom: 20px;
+}
+
+.f-row--email {
+    
+}
+
+.f-input {
+    padding: 0 5px;
+}
+
+.f-textarea {
+    min-height: 800px;
+    width: 100%;
+}
+
+.f-message {
+    margin: 20px 0;
+    padding: 0 20px;
+    color: green;
+}
+
+.h-invisible {
+    visibility: hidden;
+}

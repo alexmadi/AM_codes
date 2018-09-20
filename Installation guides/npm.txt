@@ -1,4 +1,8 @@
+npm install -g npm@3.10.3
 
+npm install npm@latest -g
+
+npm i -f
 
 Install RimRaf:
 
@@ -7,3 +11,22 @@ npm install rimraf -g
 And in the project folder delete the node_modules folder with:
 
 rimraf node_modules
+
+
+
+
+npm install -g npm@4.6.1
+
+
+
+https://stackoverflow.com/questions/15126050/running-python-on-windows-for-node-js-dependencies
+
+set PYTHONPATH=%PYTHONPATH%;C:\Program Files (x86)\Python27
+
+npm config set python C:\%ProgramFiles(x86)%\Python27\python.exe
+
+npm config set python C:\Program Files (x86)\Python27\python.exe
+
+set PYTHONPATH=%PYTHONPATH%;C:\Python27\python.exe
+
+set PYTHON=%PYTHON%;C:\Python27\python.exe

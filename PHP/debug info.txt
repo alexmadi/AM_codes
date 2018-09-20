@@ -1,0 +1,3 @@
+https://sethreid.co.nz/debugging-wordpress-with-visual-studio-code/
+
+https://xdebug.org/wizard.php
